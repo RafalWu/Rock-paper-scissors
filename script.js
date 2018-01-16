@@ -93,7 +93,7 @@ var gameState = 'notStarted',  //started // ended
 
 		var winnerIs = 'player';
 
-			if (playerPick == computerPick) {   // <---TU TRZEBA COS ZMIENIC
+			if (playerPick == computerPick) {
 				winnerIs = 'noone'; // remis
 			} else if (
 				(computerPick == 'rock' &&  playerPick == 'scissors') ||
